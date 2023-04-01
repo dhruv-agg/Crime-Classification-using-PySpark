@@ -1,22 +1,13 @@
 
 #                                                     __Crime Classification Model using Pyspark__
 
-
-```python
-from IPython.display import Image
-Image('spark_ml.png')
-```
-
-
-
-
-![png](output_1_0.png)
+![png](./static/images/output_1_0.png)
 
 
 
 
 ## 1. __Scope__
-* We are interesting in a system that could classify crime discription into different categories. We want to create a system that could automatically assign a described crime to category which could  help law enforcements to assign right officers to crime or could automatically assign officers to crime based on the classification.  
+* We are interested in a system that could classify crime discription into different categories. We want to create a system that could automatically assign a described crime to category which could  help law enforcements to assign right officers to crime or could automatically assign officers to crime based on the classification.  
 * We are using dataset from Kaggle on San Francisco Crime. Our responsibilty is to train a model based on 39 pre-defined categories, test the model accuracy and  deploy it into production. Given a new crime description, the system should assign it to one of 39 categories.
 
 * To solve this problem, we will use a variety of feature extraction techniques along with different supervised machine learning algorithms in Pyspark. 
@@ -526,9 +517,7 @@ Image('flask.jpg')
 ```
 
 
-
-
-![jpeg](output_41_0.jpeg)
+![jpeg](./static/images/output_41_0.jpeg)
 
 
 
